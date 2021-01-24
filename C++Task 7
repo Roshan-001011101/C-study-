@@ -1,0 +1,17 @@
+C++ Program to Swap Two Numbers
+This example contains two different techniques to swap numbers in C programming.
+The first program uses temporary variable to swap numbers, whereas the second program doesn't use temporary variables.
+
+int main()
+{
+  int a=5,b=10,temp;
+  
+  cout<<"The numbers swapped";
+  temp=a;
+  a=b;
+  b=temp;
+  
+  cout<<"a="<<a<<"b="<<b<<endl;
+  
+  return 0;
+}
