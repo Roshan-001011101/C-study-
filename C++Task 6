@@ -1,0 +1,15 @@
+C++ Program to Find Size of int, float, double and char:
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  cout<<"The size of the integer"<< sizeof(int) <<" bytes "<<endl;
+  cout<<"The size of the float"<< sizeof(float) <<" bytes "<<endl;
+  cout<<"The size of the double"<< sizeof(double) <<" bytes "<<endl;
+  cout<<"The size of char"<< sizeof(char) <<" bytes "<<endl;
+  
+  return 0;
+}
