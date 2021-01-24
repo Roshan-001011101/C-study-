@@ -1,0 +1,14 @@
+C++ Program to Multiply two Numbers:
+
+int main()
+{
+double i,j,multiply;
+
+cout<<"Enter Two Numbers";
+cin>>i>>j;
+
+multiply=i*j;
+cout<<"The multiplication of two are"<<multiply;
+
+return 0;
+}
