@@ -1,0 +1,19 @@
+Basic program to Add Two Integers:
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int i, j, s;
+    
+    cout << "Enter two integers: ";
+    cin >> i >> j;
+    
+    sum = i + j;
+
+    // Prints sum 
+    cout << i << " + " <<  j << " = " << sum;     
+
+    return 0;
+}
