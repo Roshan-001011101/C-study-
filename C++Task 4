@@ -1,0 +1,25 @@
+C++ Program to Find Quotient and Remainder
+
+To compute quotient and remainder, both divisor and dividend should be integers.
+
+#include <iostream>
+using namespace std;
+
+int main()
+{    
+    int i,j, quotient, remainder;
+
+    cout << "Enter dividend: ";
+    cin >> i;
+
+    cout << "Enter divisor: ";
+    cin >> j;
+
+    quotient = i/ j;
+    remainder = i % j;
+
+    cout << "Quotient = " << quotient << endl;
+    cout << "Remainder = " << remainder;
+
+    return 0;
+}
