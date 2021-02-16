@@ -1,0 +1,33 @@
+We are creating a code that can figure the days when a number is typed through the usage of C++
+Basics of switch statements:
+
+#include <iostream>
+
+using namespace std;
+int main()
+{
+int num1;
+cout<<"Enter a number:";
+cin>>num1;
+
+switch(num1)
+{
+case 1:
+  cout<<"Monday";
+  break;
+case 2:
+  cout<<"Tuesday";
+  break;
+case 3:
+  cout<<"Wednesday";
+  break;
+case 4:
+  cout<<"Thursday";
+  break;
+  
+  default:
+  cout<<"Just keep studying";
+  
+  return 0;
+}
+}
